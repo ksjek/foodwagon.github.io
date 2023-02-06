@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230206211753">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a href=""><img src="img/logo.svg" alt=""></a>
+				</div>
+				<div class="header__deliver">
+					<div class="header__info">Deliver to:</div>
+					<div class="header__place _icon-map">Current Location</div>
+					<a href="" data-popup="#popup" class="header__address">Mohammadpur Bus Stand, Dhaka</a>
+				</div>
+				<div class="header__search-login">
+					<form action="" class="header__search">
+						<button type="submit" class="button-search _icon-search"></button>
+						<input autocomplete="off" type="text" name="form[]" placeholder="Search Food" class="input-search">
+					</form>
+					<button type="submit" class="button-login _icon-user">Login</button>
+				</div>
+			</div>
+		</header>
+		<main class="mainpage">
+			<section class="search">
+				<div class="search__container">
+					<div class="search__block">
+						<div class="search__title">
+							<h2>Are you starving?</h2>
+						</div>
+						<div class="search__text">Within a few clicks, find meals that are accessible near you</div>
+						<div class="search__form">
+							<div class="search__choice">
+								<div class="search__delivery _search-active _icon-motorcycle">Delivery</div>
+								<div class="search__pickup _icon-cart">Pickup</div>
+							</div>
+							<form class="search__address" action="">
+								<div class="search__input">
+									<button type="submit" class="button-icon _icon-map"></button>
+									<input autocomplete="off" type="text" name="form[]" placeholder="Enter Your Address" class="input">
+								</div>
+								<button type="submit" class="button _icon-search">Find Food</button>
+							</form>
+						</div>
+					</div>
+					<div class="search__image">
+						<picture><source srcset="img/noodles.webp" type="image/webp"><img src="img/noodles.png" alt=""></picture>
+					</div>
+				</div>
+			</section>
+			<div class="sale">
+				<div class="sale__container">
+					<div class="sale__items">
+						<div class="sale__item">
+							<div class="sale__image">
+								<picture><source srcset="img/sale/01.webp" type="image/webp"><img src="img/sale/01.png" alt=""></picture>
+								<div class="sale__info">
+									<div class="sale__number">15</div>
+									<div class="sale__discount">
+										<div class="sale__percent">%</div>
+										<div class="sale__active">Off</div>
+									</div>
+								</div>
+							</div>
+							<div class="sale__title">Greys Vage</div>
+							<div class="sale__day">6 Days Remaining</div>
+						</div>
+						<div class="sale__item">
+							<div class="sale__image">
+								<picture><source srcset="img/sale/02.webp" type="image/webp"><img src="img/sale/02.png" alt=""></picture>
+								<div class="sale__info">
+									<div class="sale__number">10</div>
+									<div class="sale__discount">
+										<div class="sale__percent">%</div>
+										<div class="sale__active">Off</div>
+									</div>
+								</div>
+							</div>
+							<div class="sale__title">Greys Vage</div>
+							<div class="sale__day">6 Days Remaining</div>
+						</div>
+						<div class="sale__item">
+							<div class="sale__image">
+								<picture><source srcset="img/sale/03.webp" type="image/webp"><img src="img/sale/03.png" alt=""></picture>
+								<div class="sale__info">
+									<div class="sale__number">25</div>
+									<div class="sale__discount">
+										<div class="sale__percent">%</div>
+										<div class="sale__active">Off</div>
+									</div>
+								</div>
+							</div>
+							<div class="sale__title">Greys Vage</div>
+							<div class="sale__day">6 Days Remaining</div>
+						</div>
+						<div class="sale__item">
+							<div class="sale__image">
+								<picture><source srcset="img/sale/04.webp" type="image/webp"><img src="img/sale/04.png" alt=""></picture>
+								<div class="sale__info">
+									<div class="sale__number">20</div>
+									<div class="sale__discount">
+										<div class="sale__percent">%</div>
+										<div class="sale__active">Off</div>
+									</div>
+								</div>
+							</div>
+							<div class="sale__title">Greys Vage</div>
+							<div class="sale__day">6 Days Remaining</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="work">
+				<div class="work__container">
+					<div class="work__title title">
+						<h2>How does it work</h2>
+					</div>
+					<div class="work__items">
+						<div class="work__item">
+							<div class="work__image">
+								<img src="img/work/mapmarker.svg" alt="">
+							</div>
+							<div class="work__name">Select location</div>
+							<div class="work__text">Choose the location where your food will be delivered.</div>
+						</div>
+						<div class="work__item">
+							<div class="work__image">
+								<img src="img/work/menu.svg" alt="">
+							</div>
+							<div class="work__name">Choose order</div>
+							<div class="work__text">Check over hundreds of menus to pick your favorite food</div>
+						</div>
+						<div class="work__item">
+							<div class="work__image">
+								<img src="img/work/invoice.svg" alt="">
+							</div>
+							<div class="work__name">Pay advanced</div>
+							<div class="work__text">It's quick, safe, and simple. Select several methods of payment</div>
+						</div>
+						<div class="work__item">
+							<div class="work__image">
+								<img src="img/work/donut.svg" alt="">
+							</div>
+							<div class="work__name">Enjoy meals</div>
+							<div class="work__text">Food is made and delivered directly to your home.</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="popular">
+				<div class="popular__container_wide">
+					<div class="popular__title title">Popular items</div>
+					<div class="popular__slider swiper">
+						<div class="popular__wrapper swiper-wrapper">
+							<div class="popular__slide swiper-slide">
+								<div class="popular__item">
+									<div class="popular__image">
+										<picture><source srcset="img/popular/01.webp" type="image/webp"><img src="img/popular/01.png" alt=""></picture>
+									</div>
+									<div class="popular__info">
+										<div class="popular__name">Cheese Burger</div>
+										<div class="popular__place _icon-map">Burger Arena</div>
+										<div class="popular__price">$3.88</div>
+									</div>
+									<button type="submit" class="popular__button">Order Now</button>
+								</div>
+							</div>
+							<div class="popular__slide swiper-slide">
+								<div class="popular__item">
+									<div class="popular__image">
+										<picture><source srcset="img/popular/02.webp" type="image/webp"><img src="img/popular/02.png" alt=""></picture>
+									</div>
+									<div class="popular__info">
+										<div class="popular__name">Toffe’s Cake</div>
+										<div class="popular__place _icon-map">Top Sticks</div>
+										<div class="popular__price">$4.00</div>
+									</div>
+									<button type="submit" class="popular__button">Order Now</button>
+								</div>
+							</div>
+							<div class="popular__slide swiper-slide">
+								<div class="popular__item">
+									<div class="popular__image">
+										<picture><source srcset="img/popular/03.webp" type="image/webp"><img src="img/popular/03.png" alt=""></picture>
+									</div>
+									<div class="popular__info">
+										<div class="popular__name">Dancake</div>
+										<div class="popular__place _icon-map">Cake World</div>
+										<div class="popular__price">$1.99</div>
+									</div>
+									<button type="submit" class="popular__button">Order Now</button>
+								</div>
+							</div>
+							<div class="popular__slide swiper-slide">
+								<div class="popular__item">
+									<div class="popular__image">
+										<picture><source srcset="img/popular/04.webp" type="image/webp"><img src="img/popular/04.png" alt=""></picture>
+									</div>
+									<div class="popular__info">
+										<div class="popular__name">Crispy Sandwitch</div>
+										<div class="popular__place _icon-map">Fastfood Dine</div>
+										<div class="popular__price">$3.00</div>
+									</div>
+									<button type="submit" class="popular__button">Order Now</button>
+								</div>
+							</div>
+							<div class="popular__slide swiper-slide">
+								<div class="popular__item">
+									<div class="popular__image">
+										<picture><source srcset="img/popular/05.webp" type="image/webp"><img src="img/popular/05.png" alt=""></picture>
+									</div>
+									<div class="popular__info">
+										<div class="popular__name">Thai Soup</div>
+										<div class="popular__place _icon-map">Foody man</div>
+										<div class="popular__price">$2.79</div>
+									</div>
+									<button type="submit" class="popular__button">Order Now</button>
+								</div>
+							</div>
+						</div>
+						<button type="button" class="swiper-button-prev"></button>
+						<button type="button" class="swiper-button-next"></button>
+					</div>
+				</div>
+			</section>
+			<section class="restaurants">
+				<div class="restaurants__container">
+					<div class="restaurants__title title">Featured Restaurants</div>
+					<div class="restaurants__items">
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/01.webp" type="image/webp"><img src="img/restaurants/01.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">20% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/foodworld.webp" type="image/webp"><img src="img/restaurants/foodworld.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Foodworld</div>
+									<div class="restaurants__review _icon-star">46</div>
+								</div>
+							</div>
+							<div class="restaurants__open">Opens tomorrow</div>
+						</a>
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/02.webp" type="image/webp"><img src="img/restaurants/02.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">15% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/pizzahub.webp" type="image/webp"><img src="img/restaurants/pizzahub.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Pizzahub</div>
+									<div class="restaurants__review _icon-star">40</div>
+								</div>
+							</div>
+							<div class="restaurants__open">Opens tomorrow</div>
+						</a>
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/03.webp" type="image/webp"><img src="img/restaurants/03.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">10% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/donutshut.webp" type="image/webp"><img src="img/restaurants/donutshut.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Donuts hut</div>
+									<div class="restaurants__review _icon-star">20</div>
+								</div>
+							</div>
+							<div class="restaurants__open open-now">Open Now</div>
+						</a>
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/04.webp" type="image/webp"><img src="img/restaurants/04.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">15% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/donuts.webp" type="image/webp"><img src="img/restaurants/donuts.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Donuts hut</div>
+									<div class="restaurants__review _icon-star">50</div>
+								</div>
+							</div>
+							<div class="restaurants__open open-now">Open Now</div>
+						</a>
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/05.webp" type="image/webp"><img src="img/restaurants/05.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">10% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/ruby.webp" type="image/webp"><img src="img/restaurants/ruby.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Ruby Tuesday</div>
+									<div class="restaurants__review _icon-star">26</div>
+								</div>
+							</div>
+							<div class="restaurants__open open-now">Open Now</div>
+						</a>
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/06.webp" type="image/webp"><img src="img/restaurants/06.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">25% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/kuakata.webp" type="image/webp"><img src="img/restaurants/kuakata.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Kuakata Fried Chicken</div>
+									<div class="restaurants__review _icon-star">53</div>
+								</div>
+							</div>
+							<div class="restaurants__open open-now">Open Now</div>
+						</a>
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/07.webp" type="image/webp"><img src="img/restaurants/07.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">10% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/red.webp" type="image/webp"><img src="img/restaurants/red.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Red Square</div>
+									<div class="restaurants__review _icon-star">46</div>
+								</div>
+							</div>
+							<div class="restaurants__open open-now">Open Now</div>
+						</a>
+						<a href="" class="restaurants__item">
+							<div class="restaurants__image">
+								<picture><source srcset="img/restaurants/08.webp" type="image/webp"><img src="img/restaurants/08.png" alt=""></picture>
+								<div class="restaurants__sale _icon-sale">10% off</div>
+								<div class="restaurants__time _icon-time">Fast</div>
+							</div>
+							<div class="restaurants__info">
+								<div class="restaurants__logo"><picture><source srcset="img/restaurants/taco.webp" type="image/webp"><img src="img/restaurants/taco.png" alt=""></picture></div>
+								<div class="restaurants__brand">
+									<div class="restaurants__name">Taco Bell</div>
+									<div class="restaurants__review _icon-star">35</div>
+								</div>
+							</div>
+							<div class="restaurants__open open-now">Open Now</div>
+						</a>
+					</div>
+					<button type="submit" class="restaurants__button _icon-arrow">View All</button>
+				</div>
+			</section>
+			<section class="search-food">
+				<div class="search-food__container">
+					<div class="search-food__info">
+						<div class="search-food__title title">Search by Food</div>
+						<a href="" class="search-food__all _icon-arrow">View All</a>
+					</div>
+					<div class="search-food__slider swiper">
+						<div class="search-food__wrapper swiper-wrapper">
+							<div class="search-food__slide swiper-slide">
+								<a href="" class="search-food__item">
+									<div class="search-food__image">
+										<picture><source srcset="img/search-food/01.webp" type="image/webp"><img src="img/search-food/01.png" alt=""></picture>
+									</div>
+									<div class="search-food__name">Pizza</div>
+								</a>
+							</div>
+							<div class="search-food__slide swiper-slide">
+								<a href="" class="search-food__item">
+									<div class="search-food__image">
+										<picture><source srcset="img/search-food/02.webp" type="image/webp"><img src="img/search-food/02.png" alt=""></picture>
+									</div>
+									<div class="search-food__name">Burger</div>
+								</a>
+							</div>
+							<div class="search-food__slide swiper-slide">
+								<a href="" class="search-food__item">
+									<div class="search-food__image">
+										<picture><source srcset="img/search-food/03.webp" type="image/webp"><img src="img/search-food/03.png" alt=""></picture>
+									</div>
+									<div class="search-food__name">Noodles</div>
+								</a>
+							</div>
+							<div class="search-food__slide swiper-slide">
+								<a href="" class="search-food__item">
+									<div class="search-food__image">
+										<picture><source srcset="img/search-food/04.webp" type="image/webp"><img src="img/search-food/04.png" alt=""></picture>
+									</div>
+									<div class="search-food__name">Sub-sandiwch</div>
+								</a>
+							</div>
+							<div class="search-food__slide swiper-slide">
+								<a href="" class="search-food__item">
+									<div class="search-food__image">
+										<picture><source srcset="img/search-food/05.webp" type="image/webp"><img src="img/search-food/05.png" alt=""></picture>
+									</div>
+									<div class="search-food__name">Chowmein</div>
+								</a>
+							</div>
+							<div class="search-food__slide swiper-slide">
+								<a href="" class="search-food__item">
+									<div class="search-food__image">
+										<picture><source srcset="img/search-food/06.webp" type="image/webp"><img src="img/search-food/06.png" alt=""></picture>
+									</div>
+									<div class="search-food__name">Steak</div>
+								</a>
+							</div>
+						</div>
+						<button type="button" class="search-food__swiper-button-prev"></button>
+						<button type="button" class="search-food__swiper-button-next"></button>
+					</div>
+				</div>
+			</section>
+			<div class="features">
+				<div class="features__container">
+					<div class="features__items">
+						<div class="features__item">
+							<div class="features__image">
+								<img src="img/features/discounts.svg" alt="">
+							</div>
+							<div class="features__text">Daily Discounts</div>
+						</div>
+						<div class="features__item">
+							<div class="features__image">
+								<img src="img/features/tracing.svg" alt="">
+							</div>
+							<div class="features__text">Live Tracing</div>
+						</div>
+						<div class="features__item">
+							<div class="features__image">
+								<img src="img/features/delivery.svg" alt="">
+							</div>
+							<div class="features__text">Quick Delivery</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="app">
+				<div class="app__container">
+					<div class="app__image">
+						<picture><source srcset="img/app/phone.webp" type="image/webp"><img src="img/app/phone.png" alt=""></picture>
+					</div>
+					<div class="app__info">
+						<div class="app__title">Install the app</div>
+						<div class="app__text">It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</div>
+						<div class="app__shop">
+							<a class="app__google" href=""><img src="img/app/google.svg" alt=""></a>
+							<a class="app__appstore" href=""><img src="img/app/appstore.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="details">
+				<div class="details__container">
+					<div class="details__card">
+						<div class="details__content">
+							<div class="details__info">
+								<div class="details__title">Best deals <span>Crispy Sandwiches</span></div>
+								<div class="details__text">Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</div>
+							</div>
+							<button type="submit" class="details__button">
+								<p class="_icon-arrow">Proceed to order</p>
+							</button>
+						</div>
+						<div class="details__image">
+							<picture><source srcset="img/details/01.webp" type="image/webp"><img src="img/details/01.png" alt=""></picture>
+						</div>
+					</div>
+					<div class="details__card">
+						<div class="details__content details__content_order">
+							<div class="details__info">
+								<div class="details__title">Celebrate parties with <span>Fried Chicken</span></div>
+								<div class="details__text">Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.</div>
+							</div>
+							<button type="submit" class="details__button">
+								<p class="_icon-arrow">Proceed to order</p>
+							</button>
+						</div>
+						<div class="details__image details__image_border">
+							<picture><source srcset="img/details/02.webp" type="image/webp"><img src="img/details/02.png" alt=""></picture>
+						</div>
+					</div>
+					<div class="details__card">
+						<div class="details__content">
+							<div class="details__info">
+								<div class="details__title">Wanna eat hot & spicy <span>Pizza?</span></div>
+								<div class="details__text">Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</div>
+							</div>
+							<button type="submit" class="details__button">
+								<p class="_icon-arrow">Proceed to order</p>
+							</button>
+						</div>
+						<div class="details__image">
+							<picture><source srcset="img/details/03.webp" type="image/webp"><img src="img/details/03.png" alt=""></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="order">
+				<div class="order__container">
+					<div class="order__title">Are you ready to order with the best deals?</div>
+					<button type="submit" class="order__button _icon-arrow">Proceed to order</button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div data-showmore data-showmore-media="768,max" class="footer__cities">
+					<div class="footer__title">Our top cities</div>
+					<div data-showmore-content class="footer__list list-footer__content">
+						<ul class="list-footer__item">
+							<li class="footer__link"><a href="">San Francisco</a></li>
+							<li class="footer__link"><a href="">Miami</a></li>
+							<li class="footer__link"><a href="">San Diego</a></li>
+							<li class="footer__link"><a href="">East Bay</a></li>
+							<li class="footer__link"><a href="">Long Beach</a></li>
+						</ul>
+						<ul class="list-footer__item">
+							<li class="footer__link"><a href="">Los Angeles</a></li>
+							<li class="footer__link"><a href="">Washington DC</a></li>
+							<li class="footer__link"><a href="">Seattle</a></li>
+							<li class="footer__link"><a href="">Portland</a></li>
+							<li class="footer__link"><a href="">Nashville</a></li>
+						</ul>
+						<ul class="list-footer__item">
+							<li class="footer__link"><a href="">New York City</a></li>
+							<li class="footer__link"><a href="">Orange County</a></li>
+							<li class="footer__link"><a href="">Atlanta</a></li>
+							<li class="footer__link"><a href="">Charlotte</a></li>
+							<li class="footer__link"><a href="">Denver</a></li>
+						</ul>
+						<ul class="list-footer__item">
+							<li class="footer__link"><a href="">Chicago</a></li>
+							<li class="footer__link"><a href="">Phoenix</a></li>
+							<li class="footer__link"><a href="">Las Vegas</a></li>
+							<li class="footer__link"><a href="">Sacramento</a></li>
+							<li class="footer__link"><a href="">Oklahoma City</a></li>
+						</ul>
+						<ul class="list-footer__item">
+							<li class="footer__link"><a href="">Columbus</a></li>
+							<li class="footer__link"><a href="">New Mexico</a></li>
+							<li class="footer__link"><a href="">Albuquerque</a></li>
+							<li class="footer__link"><a href="">Sacramento</a></li>
+							<li class="footer__link"><a href="">New Orleans</a></li>
+						</ul>
+					</div>
+					<button data-showmore-button type="button" class="footer__more"><span>Show more</span><span>Close</span></button>
+				</div>
+				<div class="footer__menu">
+					<div class="footer__info">
+						<div class="footer__company">
+							<div class="footer__title">Company</div>
+							<div class="footer__items">
+								<a href="" class="footer__link">About us</a>
+								<a href="" class="footer__link">Team</a>
+								<a href="" class="footer__link">Careers</a>
+								<a href="" class="footer__link">Blog</a>
+							</div>
+						</div>
+						<div class="footer__contact">
+							<div class="footer__title">Contact</div>
+							<div class="footer__items">
+								<a href="" class="footer__link">Help & Support</a>
+								<a href="" class="footer__link">Partner with us</a>
+								<a href="" class="footer__link">Ride with us</a>
+							</div>
+						</div>
+						<div class="footer__legal">
+							<div class="footer__title">Legal</div>
+							<div class="footer__items">
+								<a href="" class="footer__link">Terms & Conditions</a>
+								<a href="" class="footer__link">Refund & Cancellation</a>
+								<a href="" class="footer__link">Privacy Policy</a>
+								<a href="" class="footer__link">Cookie Policy</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__subscribe">
+						<div class="footer__follow">Follow Us</div>
+						<div class="footer__social">
+							<a href="" class="footer__instagram _icon-instagram"></a>
+							<a href="" class="footer__facebook _icon-facebook"></a>
+							<a href="" class="footer__twitter _icon-twitter"></a>
+						</div>
+						<div class="footer__text">Receive exclusive offers in your mailbox</div>
+						<form class="footer__form _icon-envelope">
+							<input autocomplete="off" type="text" name="form[]" placeholder="Enter Your email" class="footer__input">
+							<button type="submit" class="footer__button">Subscribe</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__copyright">
+					<div class="footer__your-company">
+						<div class="footer__all _icon-symbol">All rights Reserved</div>
+						<div class="footer__year">Your Company, 2021</div>
+					</div>
+					<div class="footer__made">
+						<div class="footer__how">Made with <span class="footer__heart _icon-heart"></span> by</div>
+						<div class="footer__name">Themewagon</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Close</button>
+				<div class="popup__text">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20230206211753"></script>
+</body>
+
+</html>
